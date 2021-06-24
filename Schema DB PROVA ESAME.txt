@@ -1,0 +1,40 @@
+Località : pianaso
+status: aperto/chiuso
+motivoChiusura: neve
+Orari 
+	apertura
+	chiusura
+aperture 
+	estate
+		aperto: si
+		periodo: fine settimana
+		chiusoSe: pioggia
+	inverno
+		aperto: si
+		periodo: sempre
+		chiusoSe: tempesta
+Impianti
+	Seggiovia 1
+		status
+			aperto: no
+			innevamento: si
+			motivoChiusura: neve
+		data 
+			popolarità : 4/5
+			personaInCoda: 25
+			tempoSalita: 13m
+			tempoMedioDiscesa: 2m
+		orari
+			apertura
+			chiusura
+		Piste
+		     S1.1
+			data 
+				popolarità : 4/5
+				personaInCoda: 25
+				tempoSalita: 13m
+				tempoMedioDiscesa: 2m
+			difficolta: facile
+			status 
+				aperto: si
+				motivoChiusura: null
